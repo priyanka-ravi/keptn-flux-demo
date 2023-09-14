@@ -246,9 +246,9 @@ spec:
         - configMap:
             name: grafana-dashboard-workload-total
           name: grafana-dashboard-workload-total
-        #- configMap:
-        #    name: grafana-dashboard-keptn-workloads
-        #  name: grafana-dashboard-keptn-workloads
+        - configMap:
+            name: grafana-dashboard-keptn-workloads
+          name: grafana-dashboard-keptn-workloads
         - configMap:
             name: grafana-dashboard-keptn-applications
           name: grafana-dashboard-keptn-applications
